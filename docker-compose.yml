@@ -1,2 +1,12 @@
-VERSION: "3"
+version: "3.8"
 
+services:
+  alterego:
+    image: ghcr.io/flufflesamy/alterego-docker:latest
+    container_name: alterego
+    volumes:
+      # Bind mounts for configuration files
+      - ./credentials.json:/app/Alter-Ego/credentials.json:ro
+      - ./game.json:/app/Alter-Ego/game.json:ro
+      - ./settings.json:/app/Alter-Ego/settings.json:ro
+    restart: unless-stopped
