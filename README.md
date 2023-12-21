@@ -21,7 +21,9 @@ docker run \
 ### Docker Compose
 Use the included docker-compose.yml to start.
 
-Use `docker compose start` to start the server.
+Use `docker compose up` to build the container and start the bot.
+
+Refer to [the documentation](https://docs.docker.com/compose/) for Docker Compose for more information.
 
 ### Configuration
-Refer to the wiki from the orignal project.
+Refer to the [wiki](https://github.com/MolSnoo/Alter-Ego/wiki) from the orignal project to learn how to configure and run the bot.
