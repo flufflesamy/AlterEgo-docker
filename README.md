@@ -15,7 +15,7 @@ docker run \
     -v ${PWD}/config/credentials.json:/app/Alter-Ego/credentials.json \
     -v ${PWD}/config/game.json:/app/Alter-Ego/game.json \
     -v ${PWD}/config/settings.json:/app/Alter-Ego/settings.json \
-    -e "TZ=America/Los_Angeles"
+    -e "TZ=America/Los_Angeles" \
     --restart unless-stopped \
     ghcr.io/flufflesamy/alterego-docker:latest
 ```
