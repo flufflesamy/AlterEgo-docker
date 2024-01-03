@@ -20,7 +20,7 @@ docker run \
     ghcr.io/flufflesamy/alterego-docker:latest
 ```
 ### Docker Compose
-Use the included docker-compose.yml to start.
+Use the included docker-compose.yml to start. Remember to set your timezone by changing the `TZ` environment variable.
 
 Use `docker compose up` to build the container and start the bot.
 
